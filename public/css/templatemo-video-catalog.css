@@ -17,9 +17,15 @@ body {
     overflow-x: hidden;
 }
 
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 a {
     transition: all 0.3s ease;
-    color: #666;
+    color: rgb(161, 161, 161);
 }
 
 a:hover {
